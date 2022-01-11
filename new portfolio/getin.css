@@ -1,0 +1,19 @@
+.auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align {
+    width: 500px;
+    size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gluy {}

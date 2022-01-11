@@ -1,0 +1,183 @@
+@import url(gradient.css);
+@import url(text.csss);
+@import url(http://fonts.cdnfonts.com/css/southern-jannie);
+#bottom {
+    width: 3120px;
+    border-bottom: 5px solid;
+    -moz-border-image: -moz-linear-gradient(to left, #ff0000 0%, #ff9100 25%, #f2ff00 50%, #9dff00 75%, #00fe00 100%);
+    -webkit-border-image: -webkit-linear-gradient(to left, #79cc9e 0%, #beedec 25%, #c5ceff 50%, #cabd96 75%, #b591c7 100%);
+    border-image: linear-gradient(to right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    border-image-slice: 1;
+}
+
+.blend1 {
+    width: 200px;
+    height: 70px;
+    max-width: 100%;
+    background-blend-mode: screen;
+    background-image: url('https://i.ibb.co/dczXQMg/Pics-Art-09-11-06-14-07.jpg');
+    background-color: #212529;
+    background-size: cover;
+}
+
+#rectangle1 {
+    height: 5px;
+    background: rgb(0, 0, 0);
+    transform: skewY(-15deg);
+    position: relative;
+    bottom: 235px;
+}
+
+#rectangle2 {
+    height: 5px;
+    background: rgb(0, 0, 0);
+    transform: skewY(-15deg);
+    position: relative;
+    bottom: 225px;
+}
+
+.image {
+    padding-top: 70px;
+}
+
+#div1 {
+    background: url(https://media.giphy.com/media/88inhanctU1G4PEx7b/giphy.gif);
+    background-size: 100px;
+}
+
+#font {
+    font-style: bold;
+    font: 20px/1.25 'Southern Jannie', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 80px;
+}
+
+#keyboard {
+    font-weight: 200;
+    margin: 0.10em 0;
+    font-size: 3.5em;
+    color: whitesmoke;
+    width: 700px;
+    text-align: center;
+}
+
+#main {
+    font-size: 75px;
+    width: 1000px;
+    background: -webkit-linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon1 {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.icon2 {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.icon3 {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.icon4 {
+    width: 75px;
+    width: 75px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+
+.icon5 {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slp {
+    -webkit-text-fill-color: rgb(77, 77, 77);
+    position: relative;
+    bottom: 0px;
+    right: 550px;
+}
+
+#usless {
+    height: 100px;
+}
+
+.ustid {
+    position: relative;
+    top: 25px;
+}
+
+#mainpro {
+    position: relative;
+    bottom: 350px;
+}
+
+.maxibhai {
+    max-width: fit-content;
+    background-color: ;
+}
+
+#machha {
+    position: relative;
+    bottom: 25px;
+}
+
+@media (orientation: portrait) {
+    .icon1 {
+        position: relative;
+        right: 200px;
+    }
+    .icon2 {
+        position: relative;
+        bottom: 100px;
+        right: 100px;
+    }
+    .icon3 {
+        position: relative;
+        bottom: 200px;
+    }
+    .icon4 {
+        position: relative;
+        bottom: 300px;
+        left: 100px;
+    }
+    .icon5 {
+        position: relative;
+        bottom: 400px;
+        left: 200px;
+    }
+    #div1 {
+        height: 1080px;
+    }
+}
